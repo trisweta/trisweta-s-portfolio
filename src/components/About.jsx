@@ -17,7 +17,7 @@ const About = () => {
               <p>Hi. I'm Trisweta and I am a Full Stack Developer. Take a look at my portfolio!</p>
             </div>
             <div>
-              <p>A highly motivated individual with a strong passion for computer science, I am actively seeking   opportunities to learn
+              <p>A highly motivated individual with a strong passion for computer science, I am     actively seeking opportunities to learn
                 and grow. I thrive in positive, collaborative environments and have a specific interest in Development. By combining
                 my development skills with a dedication to enhancing my proficiency in data structures and algorithms, I aim to make a
                 meaningful contribution while continuously expanding my knowledge.</p>  

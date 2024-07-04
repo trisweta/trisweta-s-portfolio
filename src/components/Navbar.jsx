@@ -26,7 +26,7 @@ const Navbar = () => {
       onMouseOut={handleMouseOut}
     >
       {/* menu */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex '>
         <li>
           <Link
             to='home'
@@ -85,7 +85,7 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-6xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
@@ -150,7 +150,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1aWn44P1PoRr6TOtoqwgHyu26BHBQkewP/view?usp=sharing'
+              href='https://drive.google.com/file/d/1AO8Kt_YkQo5lGWWVbmr664TTza11Sffe/view'
               target='_blank'
               rel='noopener noreferrer'
             >
