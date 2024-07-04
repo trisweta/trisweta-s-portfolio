@@ -10,8 +10,8 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <div className="mt-20">
           <p className='text-pink-600'>Hi, my name is</p>
-          <div className="flex justify-between items-center px-4">
-            <div>
+          <div className="flex flex-col sm:flex-row justify-between items-center px-4">
+            <div className="order-2 sm:order-1">
               <h1 className='text-4xl sm:text-6xl font-bold text-[#ccd6f6]'>
                 Trisweta Das
               </h1>
@@ -19,7 +19,7 @@ const Home = () => {
                 I'm a Full Stack Developer.
               </h1>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center order-1 sm:order-2 mb-4 sm:mb-0">
               <img 
                 src={Logo} 
                 alt="Profile" 
@@ -30,7 +30,7 @@ const Home = () => {
           </div>
         </div>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          Currently enrolled in a Bachelor's program in Computer Science set to conclude in 2025, my focus lies in delving deep into web technologies. Seeking internship opportunities in development roles for the summer of 2024, I aim to fortify my skills and gain practical experience in the field.
+          Currently enrolled in a Bachelor's program in Computer Science set to conclude in 2025, my focus lies in delving deep into web technologies. Seeking internship opportunities, I aim to fortify my skills and gain practical experience in the field.
         </p>
         <div>
           <Link to="work" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 h-12 max-w-48'>
