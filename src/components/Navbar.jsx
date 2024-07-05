@@ -85,7 +85,7 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-6xl'>
+        <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
@@ -150,7 +150,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1AO8Kt_YkQo5lGWWVbmr664TTza11Sffe/view'
+              href='https://drive.google.com/file/d/12nvAgGquC4fx-NF2CFTE9CR2VztyMP0e/view'
               target='_blank'
               rel='noopener noreferrer'
             >
